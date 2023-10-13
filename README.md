@@ -38,6 +38,8 @@ SO THAT I can gauge my progress compared to my peers.
 GIVEN I am taking a code quiz
 WHEN I click the start button
 THEN timer starts and is displayed on the page
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
 WHEN all questions are answered or the time runs out
 THEN the game ends
 WHEN the game is over

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <h1 id="home-wrap"><em>Programing:Front-End Quiz</em></h1>
+    <!--Main-->
+    <main class="home-container">
+        <div class="home-wrapper">
+            <h2>CODING Begins here.</h2>
+            <p class="para">All of the following code-related questions are in a time-limit of 20 seconds. However
+                get
+                it wrong this will debug the time. Try to answer as best as you can , Happy Coding ! 🤓</p>
+            <button id="btn-init">Begin</button>
+            <!-- Question container  -->
+            <div class="qtn-container hide">
+                <!-- Questions-->
+                <div id="titleQtn">
+                </div>
+                <!-- End of questions -->
+            </div>
+            <!--Signifyin' Done-->
+            <div class="done hide">
+                <h3>Done already? Great</h3>
+                <p>Your coding score...<span id="final_grd"></span></p>
+                <form>
+                    <label for="initials">Please your initals:</label>
+                    <input type="text" id="initials" maxlength="4">
+                </form>
+                <br>
+                <button>RESTART</button>
+                <button id="enter">Enter</button>
+            </div>
+        </div>
+    </main>
+    <time id="timer">
+        Time:<div class="timer">-</div>
+    </time>
+    <!-- Footer -->
+    <footer style="text-align: center;">&copy; 2021 TimeQuiz</footer>
+
+    <br />
+    <!-- Idea for score bar-->
+    <button id="openBtn">Open Navbar</button>
+    <div id="navbar" class="navbar">
+        <a href="./Scores.html">YOUR Scores</a>
+        <a href="./policy.html">Policy</a>
+
+        <button id="closeBtn">Close Navbar</button>
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

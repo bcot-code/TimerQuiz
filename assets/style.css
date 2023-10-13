@@ -1,0 +1,70 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: blanchedalmond;
+}
+button {
+  background: #790101;
+  color: white;
+  border: none;
+  padding: 2px 6px;
+  border-radius: 5px;
+  transition: cubic-bezier(1, 0, 0, 1);
+}
+/* Navbar container of all POLICY ,SCORES, AND HOME */
+.navbar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #f1f1f1;
+}
+.navbar a {
+  float: left;
+  padding: 14px 16px;
+}
+#openBtn {
+  margin-top: 20px;
+}
+#closeBtn {
+  display: none;
+}
+
+/* HEADERS */
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+/*HOME DETAILS */
+.timer {
+  position: absolute;
+}
+#home-wrap {
+  text-decoration: underline;
+}
+/* Container for home page elements */
+.home-container {
+  display: flex; /* Display elements in a flexible container */
+  justify-content: space-evenly; /* Distribute elements evenly within the container */
+  flex-wrap: wrap; /* Allow elements to wrap onto multiple lines if necessary */
+  border: 17px solid rgb(202, 74, 5); /* Add a 17px solid border with the specified color */
+}
+/* Flex container for home page */
+.home-wrapper {
+  display: flex; /* Enable flex layout */
+}
+main div p.para {
+  margin: 35px;
+}
+main div #titleQtn {
+  color: #790101;
+}
+.hide {
+  display: none;
+}
+main div #btn-init:hover {
+  background: orangered;
+}
