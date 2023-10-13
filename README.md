@@ -43,7 +43,7 @@ THEN time is subtracted from the clock
 WHEN all questions are answered or the time runs out
 THEN the game ends
 WHEN the game is over
-THEN I can save my initials and score
+THEN I can save my initials and score.
 ``
 
 #### Screenshot
